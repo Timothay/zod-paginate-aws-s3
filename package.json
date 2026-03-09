@@ -25,7 +25,6 @@
   "scripts": {
     "build": "rm -rf ./dist && npx tsc -p tsconfig.build.json",
     "test": "vitest --run --coverage",
-    "test:integration": "vitest --run --config vitest.integration.config.ts",
     "lint": "eslint \"src/**/*.{ts,json}\"",
     "lint:fix": "eslint \"src/**/*.{ts,json}\" --fix",
     "prepare": "husky",
