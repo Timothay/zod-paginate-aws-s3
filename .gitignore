@@ -28,3 +28,6 @@ dist/
 
 # Any private notes
 *.notes
+
+# For now
+release-please.yml
