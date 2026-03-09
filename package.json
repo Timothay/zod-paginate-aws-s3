@@ -11,13 +11,13 @@
     "adapter",
     "s3"
   ],
-  "homepage": "https://github.com/nolway/zod-paginate-aws-s3#readme",
+  "homepage": "https://github.com/Timothay/zod-paginate-aws-s3#readme",
   "bugs": {
-    "url": "https://github.com/nolway/zod-paginate-aws-s3/issues"
+    "url": "https://github.com/Timothay/zod-paginate-aws-s3/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nolway/zod-paginate-aws-s3.git"
+    "url": "git+https://github.com/Timothay/zod-paginate-aws-s3.git"
   },
   "license": "GPL-3.0",
   "author": "Timothay",
@@ -25,7 +25,6 @@
   "scripts": {
     "build": "rm -rf ./dist && npx tsc -p tsconfig.build.json",
     "test": "vitest --run --coverage",
-    "test:integration": "vitest --run --config vitest.integration.config.ts",
     "lint": "eslint \"src/**/*.{ts,json}\"",
     "lint:fix": "eslint \"src/**/*.{ts,json}\" --fix",
     "prepare": "husky",
